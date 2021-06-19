@@ -1,0 +1,455 @@
+/*
+	Web Design: WAVITY BY WOWSEEM - WASEEM AHMED
+	Date: 12 Feb 2018
+	Designer & Coder: WOWSEEM - Waseem Ahmed
+	For: wavity.com
+	Fiverr Profile: https://fiverr.com/wowseem
+*/
+/* ------------------------------------------------------ */
+/*         TABLE OF CONTENTS                              */
+/* ------------------------------------------------------ */
+/*   01 - Min width : 768px   */
+/*   02 - Max width : 768px   */
+/*   03 - Max width : 480px   */
+/*   04 - Max width: 1170px & Min width: 768px   */
+/*   05 - Maximum width: 620px and Minimum Width: 480px   */
+/* ------------------------------------------------------ */
+
+
+/*------------------------------------------------------------------------------*/
+/*                    Minimum width : 768px 
+/*------------------------------------------------------------------------------*/
+@media screen and (min-width:768px) {
+/* slideshow */
+.slide-image {
+width:100%;
+}	
+.alignment { text-align:left; }
+.designed-by { float:right; }
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+display: block;
+}
+.margin-top-l {
+margin-top:30px;  
+}
+.margin-bottom-l {
+margin-bottom:30px;  
+}
+}
+
+
+/*------------------------------------------------------------------------------*/
+/*             Maximum width : 1200px | Bootstrap 1st Break Point
+/*------------------------------------------------------------------------------*/
+@media screen and (max-width:1200px) {
+/* headings */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6 {
+  font-weight:normal;
+  margin:0 0 6px 0;
+  font-family: 'Montserrat-Bold';
+  text-transform:capitalize;
+}
+h1, .h1 {
+  font-size:2em;
+}
+h2, .h2 {
+  font-size:1.4em;
+}
+/* Header */
+#top-boxes .top-box {
+  padding:6px;   
+}
+#top-boxes .top-box span {
+  font-size:11px;
+}
+.view-more {
+  margin-top:0;	
+}
+/* Industries */
+.discuss-project, .discuss-project-again {
+ padding:35px;
+}
+}
+
+
+/*------------------------------------------------------------------------------*/
+/*             Maximum width : 992px | Bootstrap 2nd Break Point
+/*------------------------------------------------------------------------------*/
+@media screen and (max-width:992px) {
+
+}
+
+
+/*------------------------------------------------------------------------------*/
+/*                    Maximum width : 768px
+/*------------------------------------------------------------------------------*/
+@media screen and (max-width:768px) {
+.header-container { padding-bottom:10px; }
+#header-image {
+height:215px;	
+}
+.alignment { text-align:center; }
+.designed-by { float:none; }
+h1, .h1 {
+  font-size:1.5em;
+  line-height: 1.4em;
+}
+h1.mob-margin-top, h3.mob-margin-top {
+  margin-top:20px;
+}
+h1 .size-small {
+  font-size:1em;
+}
+h1 .size-medium {
+  font-size:1em;
+}
+h1 .size-large {
+  font-size:1em;
+}
+h2, .h2 {
+  font-size:1.2em;
+  line-height: 1.3em;
+}
+p.tagline {
+  font-size:1.2em;
+  line-height: 1.3em;
+  margin-bottom:15px;
+}
+.btn-secondary {
+  font-size:1em;	
+}
+.m-margin-top {
+  margin-top:20px;	
+}
+.m-margin-top-10 {
+  margin-top:10px;	
+}
+.m-margin-bottom {
+  margin-bottom:20px !important;
+}
+.m-margin-bottom-10 {
+  margin-bottom:10px;	
+}
+.margin-bottom {
+margin-bottom:10px !important;	
+}
+[data-balloon]:after {
+    font-size: 13px;
+	padding:2px 10px;
+}
+.dropdown:hover:after {
+  border-width: 0 0 0 0;
+}
+
+/* theme */
+.secondary-btn, .primary-btn, .secondary-btn, .white-btn, .yellow-btn {
+  font-size:12px;
+  padding: 5px 12px;
+}
+/* sections */
+#homepage-about-us {
+  margin-top:0px;
+}
+.box-content {
+margin-bottom:20px;	
+}
+.discuss-project {
+  padding:10px;
+  text-align:center;
+}
+.discuss-project-again {
+  padding:10px;
+  text-align:center;
+}
+.discuss-project .heading {
+  padding-bottom:20px;
+}
+.industries strong {
+  font-size:1em;	
+}
+.capabilities .icon-box {
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.section { 
+  padding-top:60px;
+  padding-bottom:60px;   
+}
+.post-box {
+  margin-bottom:10px;
+}
+.signup-form input[type="email"] {
+  width:65%;
+  left:0;
+}
+.signup-form input[type="submit"] {
+  width:35%;
+  left:0;
+}
+footer .social {
+margin-top:65px;
+padding:0 10px;	
+}
+footer .social a {
+  width:50%;
+  font-size:13px;  
+}
+footer .social a i {
+  margin-right:5px;
+}
+footer .copyrights a {
+  margin-right:4px;
+  padding:0;
+}
+footer .copyrights .alignment {
+  text-align:center;
+}	
+footer .background-primary-dark {
+  background:none;
+}
+.fright, .fleft {
+float:none;	
+}
+/* header */
+.navbar-brand {
+padding:5px;	
+}
+.navbar-brand img.logo {
+  width:202px;
+  margin-top:-3px;
+}
+/* slideshow */
+.line.content-center-vertical {
+  padding: 0 2em;
+}
+.owl-buttons {
+  display: none;
+}
+.owl-buttons {
+  display: none;
+}
+.brand-overview {
+  margin-top:-140px;
+}
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*                    Maximum width : 576px 
+/*------------------------------------------------------------------------------*/
+@media screen and (max-width:576px) {
+h1 span.border {
+  border-bottom:0;
+}
+h1 span.border-primary {
+  border-bottom:0;
+}
+.industry-box strong {
+    font-size: 13px;
+}
+/* header */
+header img.logo {
+  padding-top: 3px;
+}
+#page-header {
+  padding-top:30px;
+  padding-bottom:30px;	
+}
+#top-boxes {
+  margin-top:10px;
+}
+.navbar {
+  height:auto;
+  background:none;
+}
+.navbar ul.nav {
+  display:block;
+}
+.navbar-default .navbar-nav li a {
+  display:block;
+  text-align:left;
+  padding-left:8px;
+  border-bottom:solid 1px #ebebeb;
+}
+.navbar-default .navbar-nav li:last-child {
+  margin-bottom:15px;
+}
+.navbar-default .navbar-nav li ul.services li a {
+  text-align:left;
+  border-bottom:0;  
+}
+.menu-grid {
+  border-top: 0;
+  padding:10px 0;
+  background:#f5f5f5;
+}
+.navbar-default ul.navbar-nav li > ul.dropdown-menu {
+  background:#f5f5f5;
+}
+.navbar-default .navbar-nav > li > ul.dropdown-menu li > ul{
+    display:block;
+	background:#fff;
+}
+.navbar-default .navbar-nav > li > ul li > ul > li:last-child{
+  margin-bottom:0;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color:#333;	
+}
+.navbar-default .navbar-nav > li > ul li:hover > ul {
+  display:block;
+  position:relative;
+  left:0;
+  top:0;
+  border:0;
+}
+#main-content {
+  padding-top:50px;
+  padding-bottom:50px;  
+}
+.axact-member {
+  margin-bottom:30px;	
+}
+.axact-member.bottom-margin-0 {
+  margin-bottom:0;	
+}
+.signup-form input[type="email"] {
+  padding:14px;
+  width:65%;
+  left: 0;
+}
+.signup-form input[type="submit"] {
+  width:35%;
+  padding:14px;
+  left: 0;
+}
+/* about us */
+#homepage-about-us {
+  padding:0;
+}
+/* our works */
+.view-more {
+  font-size:1.3em;
+}
+/* slideshows */
+.carousel-main {
+  margin-top:10px;
+}
+.carousel-main .carousel-content-box {
+  bottom:0px;
+}
+.carousel-main .carousel-content-box .carousel-content {
+  left:0px;
+}
+.carousel-main .carousel-content-box .carousel-content h1 {
+  font-size: 16px;
+}
+.carousel-content .slideshow-btn2, .carousel-content .slideshow-btn2:link {
+  padding: 0.100rem 1rem;
+  font-size:12px;
+}
+.carousel-main .owl-pagination {
+    padding: 0 0 5px 0;
+}
+.image-box {
+  padding:2px;
+  padding-bottom:5px;
+}
+.owl-theme .owl-controls .owl-page span {
+  height: 12px;
+  width: 12px;
+}
+/* industries */
+.industries .industry-box {
+  margin-bottom:25px;
+}
+/* capabilities */
+.capabilities .icon-box {
+  padding:10px 0px !important;
+}
+.capabilities .icon-box i {
+ font-size:2em;
+}
+/* blog */
+.read-more-btn {
+  visibility:visible;
+}
+#blog-sidebar {
+  margin-top:50px;
+}
+/* footer */
+footer .contact-details {
+  padding-left:0;
+  padding-right:0;  
+}
+footer .copyrights .copyrights-left {
+  padding:0;
+}
+footer .copyrights .copyrights-right {
+  padding:0;
+}
+/* paddings and margins */
+.margin-top {
+    margin-top: 10px;
+}
+.margin-s-bottom {
+    margin-bottom: 30px !important;
+}
+.margin-s-bottom-50 {
+    margin-bottom: 50px !important;
+}
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*    Maximum width: 1170px and Minimum Width: 768px | Between Desktop and Tablets
+/*------------------------------------------------------------------------------*/
+@media screen and (max-width:992px) and (min-width:768px) {
+body {
+  font-size:14px;	
+}
+h1, .h1 {
+  font-size:2.1em;
+}
+h1 .size-small {
+  font-size:0.8em;
+}
+h1 .size-medium {
+  font-size:1.3em;
+}
+h1 .size-large {
+  font-size:1.3em;
+}
+header img.logo {
+  width:200px;
+  margin: 0 auto;
+}
+[data-balloon]:after {
+    font-size: 13px;
+	padding:2px 10px;
+}
+.btn-secondary, .btn-primary {
+  font-size:15px;
+  padding:8px 15px;
+}
+footer .social a {
+  font-size:15px;
+  padding:12px;
+}
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*    Maximum width: 620px and Minimum Width: 480px | Between Tablet and Mobile
+/*------------------------------------------------------------------------------*/
+@media screen and (max-width:620px) and (min-width:480px) {
+
+}
